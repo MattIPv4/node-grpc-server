@@ -1,0 +1,23 @@
+{
+  "name": "grpc-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattIPv4/node-grpc-server.git"
+  },
+  "author": "Matt (IPv4) Cowley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MattIPv4/node-grpc-server/issues"
+  },
+  "homepage": "https://github.com/MattIPv4/node-grpc-server#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "@grpc/proto-loader": "^0.6.13",
+    "protobufjs": "^6.11.3"
+  }
+}
