@@ -192,6 +192,7 @@ const start = async (
          */
         sayHello: (call, callback) => {
             callback(null, { message: `Hello, ${call.request.name}` });
+            console.log('Responded to sayHello for', call.request.name);
         },
     });
 
